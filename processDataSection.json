@@ -1,0 +1,3 @@
+{
+  "processData": "DOMO.log(aws.createClient(metadata.account.region, metadata.account.key, metadata.account.secret))\nvar res = aws.get(\"domo-3rd-party-connectors-dev/domo/1210654663/20002d17-25eb-475c-a5e0-782afecc4b1a\", \"test.json\");\ndatagrid.addColumn(\"Status\", datagrid.DATA_TYPE_STRING);\ndatagrid.addCell(res);\ndatagrid.endRow();\n//DOMO.log(aws.createClient(\"us-east-1\", \"AKIAJRTTGY56OAM5YKEA\", \"\"))\n//DOMO.log(aws.put(\"domo-3rd-party-connectors-dev/domo/1210654663/20002d17-25eb-475c-a5e0-782afecc4b1a\", \"test.json\", '{\"hello\": \"world\"}'))"
+}

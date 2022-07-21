@@ -1,0 +1,304 @@
+{
+  "name": "AWS Copy",
+  "connectorType": "datagrid",
+  "userId": 1545575618,
+  "domoClientId": null,
+  "domoClientSecret": "key1::DOMO::NtG1lL6SORT0X6w6PwztWWJThw6MQSjYjOQJhV2FfIt2N4lVJwAMwOvSi4qqbbqjlIOp/KHtX+ZFWBkATkeRLwOBYFad3vm0lFlhdFKJU8e7hW809ge57PjkkZO9Y0LoxaVj+ST/onVsYD1z2aUyplFJ0QBxxsVzMmxqRSHa2yADkJW73MqhN3pt4Rqkbm1gIP1RORGWTR75vXfllNCE6ThP4tMP8GFRPHKqQhBJPsknuvLmzDltpOercmTIUronPPr0LCFUfyXn1X91kIyRSwtKcMcnjqZ0W6j1Iint6mbhOTo2hdS2paJpd9NjHmfOp6tF5eZgQkv6+N7p5IWZJ6lhKOIg9UpKpnKyGHUaXnGG5K9j+PdhLH83umAA3LkXgT7H/p+yR8nyXz6zupiOwbKpea2rvcq7hnQ5Qf/mjCfuwOxqGDu9wa/SwLr0C9zBJANmJt6LsK8SC0sxOwF5ls0UG9knHT61Gi+jXgNPOEMcv9P8OJGgIGS2H+ZmJi42",
+  "additionalInfo": "testing new version",
+  "reportLength": 1,
+  "days": 7,
+  "reports": [
+    "Test"
+  ],
+  "advancedReports": null,
+  "guid": "851b0d55-907e-467b-b0c7-7712222144d8",
+  "publishPrivate": true,
+  "visibilityType": {
+    "label": null,
+    "value": "private"
+  },
+  "parameters": [
+    {
+      "name": "firstname",
+      "type": "string",
+      "required": false,
+      "order": -1,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1796"
+    },
+    {
+      "name": "lastname",
+      "type": "string",
+      "required": false,
+      "order": 0,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1797"
+    },
+    {
+      "name": "roll",
+      "type": "integer",
+      "required": false,
+      "order": 1,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1798"
+    },
+    {
+      "name": "roll2",
+      "type": "integer",
+      "required": false,
+      "order": 2,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1799"
+    },
+    {
+      "name": "text1",
+      "type": "text",
+      "required": false,
+      "order": 3,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1800"
+    },
+    {
+      "name": "text2",
+      "type": "text",
+      "required": false,
+      "order": 4,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1801"
+    },
+    {
+      "name": "start",
+      "type": "dateSelector",
+      "required": false,
+      "order": 5,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1802"
+    },
+    {
+      "name": "end",
+      "type": "dateSelector",
+      "required": false,
+      "order": 6,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1803"
+    },
+    {
+      "name": "drop",
+      "type": "dropdown",
+      "required": false,
+      "order": 7,
+      "options": [
+        {
+          "name": "op1",
+          "value": "op1"
+        },
+        {
+          "name": "op2",
+          "value": "op2"
+        },
+        {
+          "name": "op3",
+          "value": "op3"
+        },
+        {
+          "name": "op4",
+          "value": "op4"
+        }
+      ],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:1804"
+    }
+  ],
+  "commands": null,
+  "showAdvanced": true,
+  "submittedVersion": 8,
+  "submittedMajorVersion": 0,
+  "publishedVersion": 0,
+  "workbenchEnabled": false,
+  "dataProviderCreated": false,
+  "description": null,
+  "tags": null,
+  "successResponseDefinition": null,
+  "errorResponseDefinition": null,
+  "updateCode": false,
+  "requestingCustomerId": null,
+  "ownerId": null,
+  "ownerCustomerId": null,
+  "parentGuid": null,
+  "testingProfiles": [
+    {
+      "name": "test1",
+      "value": [
+        {
+          "name": "firstname",
+          "type": "string",
+          "required": false,
+          "order": -1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "first",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "lastname",
+          "type": "string",
+          "required": false,
+          "order": 0,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "last",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "roll",
+          "type": "integer",
+          "required": false,
+          "order": 1,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "7",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "roll2",
+          "type": "integer",
+          "required": false,
+          "order": 2,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "8",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "text1",
+          "type": "text",
+          "required": false,
+          "order": 3,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "text1",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "text2",
+          "type": "text",
+          "required": false,
+          "order": 4,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": "text2",
+          "dateSelectorValue": null
+        },
+        {
+          "name": "start",
+          "type": "dateSelector",
+          "required": false,
+          "order": 5,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": {
+            "date": "relative",
+            "dateFrom": "relative",
+            "dateFromOffset": 0,
+            "dateFromPicker": "2022-05-04T14:11:32.769Z",
+            "dateOffset": 9,
+            "datePicker": "2022-05-04T14:11:32.769Z",
+            "dateTo": "relative",
+            "dateToOffset": 0,
+            "dateToPicker": "2022-05-04T14:11:32.769Z",
+            "dateType": "single_date",
+            "period": "currentWeek",
+            "timePeriod": "currentWeek",
+            "weekStartDay": "sunday"
+          }
+        },
+        {
+          "name": "end",
+          "type": "dateSelector",
+          "required": false,
+          "order": 6,
+          "options": [],
+          "command": null,
+          "helpText": null,
+          "showWhen": "",
+          "value": null,
+          "dateSelectorValue": {
+            "date": "relative",
+            "dateFrom": "specific",
+            "dateFromOffset": 0,
+            "dateFromPicker": "2022-04-06T14:11:32.823Z",
+            "dateOffset": 0,
+            "datePicker": "2022-05-04T14:11:32.823Z",
+            "dateTo": "relative",
+            "dateToOffset": 6,
+            "dateToPicker": "2022-05-04T14:11:32.823Z",
+            "dateType": "date_range",
+            "period": "currentWeek",
+            "timePeriod": "currentWeek",
+            "weekStartDay": "sunday"
+          }
+        }
+      ]
+    }
+  ],
+  "visible": true
+}

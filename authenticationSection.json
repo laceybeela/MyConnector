@@ -1,0 +1,24 @@
+{
+  "type": "none",
+  "authCodeText": "//DOMO.log(metadata.account.region)\n//DOMO.log(metadata.account.key)\n//DOMO.log(metadata.account.secret)\nif(true){\n  auth.authenticationSuccess();\n}else{\n  auth.authenticationFailed(\"Failed\");\n}",
+  "userName": "",
+  "password": "",
+  "apiKey": "",
+  "clientKey": "",
+  "clientSecret": "",
+  "authorizationURL": "",
+  "accessTokenURL": "",
+  "oauthUserName": null,
+  "oauthPassword": null,
+  "scope": "",
+  "customAccountFields": [
+    {
+      "label": null,
+      "value": null,
+      "type": null
+    }
+  ],
+  "additionalParameters": "",
+  "tokenAddlParams": "",
+  "accesstokenMethod": null
+}
